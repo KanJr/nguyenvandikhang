@@ -1,0 +1,22 @@
+:host {
+	display: block;
+	min-height: 100dvh;
+	color: #f5f1e8;
+	background:
+		radial-gradient(circle at top left, rgba(255, 201, 107, 0.2), transparent 28%),
+		radial-gradient(circle at right center, rgba(87, 132, 255, 0.18), transparent 26%),
+		linear-gradient(135deg, #0e1726 0%, #111827 45%, #1c2433 100%);
+	font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.profile-shell {
+	position: relative;
+	min-height: 100dvh;
+	display: grid;
+	gap: 1rem;
+	align-items: center;
+	:host {
+		display: block;
+	}
+	overflow: hidden;
+}
