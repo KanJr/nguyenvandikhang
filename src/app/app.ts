@@ -8,11 +8,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class App {
   protected readonly profile = {
-    name: 'Nguyen Van A',
+    name: 'Nguyễn Văn Dĩ Khang',
     role: 'Frontend Developer',
     bio: 'Xây dựng giao diện hiện đại, gọn gàng và có thể mở rộng cho các ứng dụng Angular.',
     location: 'Ho Chi Minh City, Vietnam',
-    email: 'nguyenvana@example.com'
+    email: 'nguyenvandikhang@example.com'
   } as const;
 
   protected readonly stats = [
